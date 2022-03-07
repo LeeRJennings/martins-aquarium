@@ -1,4 +1,4 @@
-export const Fish = (fishObj) => {
+export const fishHTML = (fishObj) => {
 	return `<article class="fish-card">
 				<div><img class="fish-image" src="images/${fishObj.image}" /></div>
 				<h3 class="fish-name">${fishObj.name}</h3>
